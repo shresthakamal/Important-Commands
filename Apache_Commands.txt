@@ -1,0 +1,12 @@
+#Apache Commands:
+
+## Start command ##
+systemctl start apache2.service
+
+## Stop command ##
+systemctl stop apache2.service
+
+## Restart command ##
+systemctl restart apache2.service
+
+

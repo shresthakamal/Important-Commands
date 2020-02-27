@@ -1,0 +1,56 @@
+
+# Git Bash Commands:
+
+**Configure Email and Password**
+git config --global credential.helper store
+git config --global user.name <Username>
+git config --global user.email <Email>
+git config --list 
+
+.........................................................................
+**Basic Commands**
+git init
+git clone <Repository_Link>
+git add .
+git status
+git commit -m "<Commit_Titles>"
+git remote add origin <Repository_Link>
+git remote -v : Shows all the remote repositories
+git push remote origin
+git remote add origin <Link to Github Repo>
+git branch :List of branches
+git checkout <branch_name>
+git merge <branch_name>
+
+.........................................................................
+#Github Concepts:
+###Motivation:
+<file_name> <file_name_edited> <file_name_final> <final_name_final_2> 
+ 
+**Version Controls, Coding History, Collaboration, Markdown Language**
+
+Repositories, Commit (Save), Branch, Merge, Issues (Opened/Closed)
+
+**Fork**: When you want a foreign repo in your list of repos and want to work on it seprately
+
+**Pull Requests**: When you work on a foreign repo and find the changes you made relevant and want to contribute it to the owner of the repo, then you push the changes and ask the owner will you please "pull" my changes: "Pull Request"
+
+[This is a link](www.google.com)
+
+**This is Bold**
+
+cd, pwd, ls, clear, cd .. , ls -all
+
+.........................................................................
+
+Clonning::<git clone <Repo_link>:: Download a file in the remote server to your local server
+
+Pull:: <git pull >
+
+Push:: <git push <remote><branch> >: When multiple users are pushing and you dont have an updated local repository
+
+
+
+ 
+
+
