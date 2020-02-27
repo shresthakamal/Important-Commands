@@ -45,11 +45,17 @@ cd, pwd, ls, clear, cd .. , ls -all
 
 Clonning::<git clone <Repo_link>:: Download a file in the remote server to your local server
 
-Pull:: <git pull >
+Pull:: <git pull <remote><branch> > When multiple users are pushing and you dont have an updated local repository, pull updated remote to the local repository
 
-Push:: <git push <remote><branch> >: When multiple users are pushing and you dont have an updated local repository
+Push:: <git push <remote><branch> >:  When you have to update the remote repository
 
+**Two Ways of Creating a Github Repositories**
+1. To Create a repo in the remote and clone it to your desktop
+2. To create a repo in your local machine and then add it to the remote server
 
+If you are clonning a repository that was started in the remote server then you dont need to add remote, as it is already added
+
+But if you are starting at the local repository then you need to add remote as origin or anything you like.
 
  
 
