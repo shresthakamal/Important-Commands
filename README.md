@@ -1,2 +1,2 @@
-# Learning-Git-Bash-Commands
+# Important-Commands
 Git Bash Commands
