@@ -1,5 +1,7 @@
 #Apache Commands:
 
+sudo apt-get install apache2
+
 ## Start command ##
 systemctl start apache2.service
 
